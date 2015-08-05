@@ -51,7 +51,7 @@ class FirstTests extends PHPUnit_Framework_TestCase
 
     public function testClass1(){
         /*
-         * Instantiate the class dog and assign its age property to a variable x
+         * Instantiate the class Dog and assign its age property to a variable x
          * */
 
         $this->assertEquals($x, 5);

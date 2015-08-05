@@ -21,4 +21,24 @@ class ThirdTests extends PHPUnit_Framework_TestCase
         $this->assertEquals($x, 7);
         $this->assertEquals(array_splice($array,7), [0,0,0,0]);
     }
+
+    public function testAlgo2(){
+        /*
+         * Implement the function below such that it emulates pow()
+         * */
+
+        $this->assertEquals($this->power(3,4), 81);
+
+    }
+
+    /**
+     * Exponential expression
+     *
+     * @param $base int The base number
+     * @param $exponent int The exponent the base number is raised to
+     * @return int
+     */
+    private function power($base, $exponent){
+
+    }
 }

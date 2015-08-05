@@ -31,6 +31,8 @@ class SecondTests extends PHPUnit_Framework_TestCase
     public function testOperator(){
         /*
          * Fix the code below so that the test passes
+         *
+         * You may only change one line of code
          * */
 
         $string1 = 'peoplesRepublicOfKorea';
