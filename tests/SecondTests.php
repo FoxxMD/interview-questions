@@ -4,6 +4,8 @@
  * This set of tests is to test familiarity with some commonly used functions and operations
  *
  * */
+use interview\Helper;
+
 class SecondTests extends PHPUnit_Framework_TestCase
 {
     public function testArray1(){
@@ -55,10 +57,10 @@ class SecondTests extends PHPUnit_Framework_TestCase
 
         // ********************
         $x = 42;
-        $y = rand();
+        $y = mt_rand();
         $z = $x + $y;
         if(is_numeric($z)){
-            throw new \Exception();
+            throw new \RuntimeException();
         }
         // ********************
 

@@ -1,7 +1,9 @@
 <?php
 
-require '../resources/Helper.php';
-require '../resources/ExampleClasses.php';
+use interview\Cat;
+use interview\Dog;
+use interview\Helper;
+
 /*
  * This set of tests is stupidly easy.
  * It's mostly a sanity check to make sure you know how to do basic things with PHP.
@@ -45,7 +47,7 @@ class FirstTests extends PHPUnit_Framework_TestCase
 
         $array = array('cat','dog','penguin','wompwomp','gasoline');
 
-        $this->assertEquals(count($array), 6);
+        $this->assertCount(6, $array);
         $this->assertEquals($array[5], 4);
     }
 

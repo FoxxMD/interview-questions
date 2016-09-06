@@ -1,5 +1,7 @@
 <?php
 
+namespace interview;
+
 /**
  * Created by IntelliJ IDEA.
  * User: mduncan
@@ -10,7 +12,7 @@ class Helper
 {
 
     public static function generateMaybeNull(){
-        $rand = rand();
+        $rand = mt_rand();
 
         return $rand%2 === 0 ? null : $rand;
     }

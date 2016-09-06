@@ -1,5 +1,5 @@
 suites:
     main:
-        namespace: apiNext
-        psr4_prefix: apiNext
-        src_path: app
+        namespace: interview
+        psr4_prefix: interview
+        src_path: resources

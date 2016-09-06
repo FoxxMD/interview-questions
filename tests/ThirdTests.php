@@ -10,7 +10,7 @@ class ThirdTests extends PHPUnit_Framework_TestCase
         /*
          * Given the array below:
          *
-         * 1. Count the number of occurrences of non-zero elements and assign to this to a variable x
+         * 1. Count the number of occurrences of non-zero elements and assign the value to a variable x
          * 2. Modify the array so that non-zero elements appear first
          * */
 
@@ -19,7 +19,7 @@ class ThirdTests extends PHPUnit_Framework_TestCase
 
 
         $this->assertEquals($x, 7);
-        $this->assertEquals(array_splice($array,7), [0,0,0,0]);
+        $this->assertEquals(array_splice($array,7), [0, 0, 0, 0]);
     }
 
     public function testAlgo2(){
@@ -27,7 +27,7 @@ class ThirdTests extends PHPUnit_Framework_TestCase
          * Implement the function below such that it emulates pow()
          * */
 
-        $this->assertEquals($this->power(3,4), 81);
+        $this->assertEquals($this->power(3,4) , 81);
 
     }
 
