@@ -5,36 +5,42 @@ use interview\Dog;
 use interview\Helper;
 
 /*
- * This set of tests is stupidly easy.
- * It's mostly a sanity check to make sure you know how to do basic things with PHP.
+ * Each public function in this file is a TEST in a PHPUnit suite.
+ * The code block for each function contains code that must be modified/fixed in order for the test to pass.
+ * Each function contains comment(s) that will give you directions on how to fix the code in order for the test to pass.
+ *
+ * Please note that each test is independent -- they are not related or depend on any of the other tests.
+ *
+ * Also, please do not hesitate to ask for clarification on any directions, questions are encouraged!
+ *
+ * Good Luck!
  *
  * */
 class FirstTests extends PHPUnit_Framework_TestCase
 {
     public function testAssign(){
-        // Initialize the variable x and assign the string 'foo' to it
+        // Declare the variable x and initialize it with string 'foo'
 
         $this->assertEquals($x, 'foo');
     }
 
     public function testNull(){
         /*
-         * Initialize the variable x and assign a value from the function 'Helper::generateMaybeNull()' below
+         * Declare the variable x and initialize it with a value from the function 'Helper::generateMaybeNull()' below
          *
-         * If x is null initialize the variable y with the string 'foo'
-         * If x is not null initialize the variable y with the string 'bar'
+         * If x is null  declare the variable y and initialize it with the string 'foo'
+         * If x is not null declare the variable y and initialize it with the string 'bar'
          * */
 
-        Helper::generateMaybeNull();
+        Helper::generateMaybeNull()
 
         $this->assertEquals($y, Helper::nullAssertValue($x));
     }
 
     public function testArray1(){
         /*
-         * Access the value 'wompwomp' in the array below and assign it to a variable x
+         * Declare the variable x and initialize it with the 4th element from the array below
          * */
-
         $array = array('cat','dog','penguin','wompwomp','gasoline');
 
         $this->assertEquals($x, 'wompwomp');
@@ -53,7 +59,7 @@ class FirstTests extends PHPUnit_Framework_TestCase
 
     public function testClass1(){
         /*
-         * Instantiate the class Dog and assign its age property to a variable x
+         * Instantiate the class Dog, then declare the variable x and initialize it with age property
          * */
 
         $this->assertEquals($x, 5);
@@ -61,9 +67,9 @@ class FirstTests extends PHPUnit_Framework_TestCase
 
     public function testClass2(){
         /*
-         * 1. Initialize the variable 'name' with a string
-         * 2. Instantiate the class Cat and provide the variable 'name' as an argument, assign it to the variable 'x'
-         * 3. Add 3 to the member 'age' in the Cat instance
+         * 1. Declare the variable 'name' and initialize it with a string of your choice.
+         * 2. Declare the variable x and instantiate it with the class Cat. Provide the variable 'name' as an argument.
+         * 3. Add 3 to the member 'age' in the Cat instance.
          * */
 
         $this->assertEquals($x->age, 10);

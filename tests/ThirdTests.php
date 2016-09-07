@@ -1,7 +1,19 @@
 <?php
 
+
 /*
  * These tests are to see how you perform with algorithms. The code you write is more important than the answer you get.
+ *
+ * Each public function in this file is a TEST in a PHPUnit suite.
+ * The code block for each function contains code that must be modified/fixed in order for the test to pass.
+ * Each function contains comment(s) that will give you directions on how to fix the code in order for the test to pass.
+ *
+ * Please note that each test is independent -- they are not related or depend on any of the other tests.
+ *
+ * Also, please do not hesitate to ask for clarification on any directions, questions are encouraged!
+ *
+ * Good Luck!
+ *
  * */
 class ThirdTests extends PHPUnit_Framework_TestCase
 {
@@ -10,12 +22,11 @@ class ThirdTests extends PHPUnit_Framework_TestCase
         /*
          * Given the array below:
          *
-         * 1. Count the number of occurrences of non-zero elements and assign the value to a variable x
+         * 1. Declare the variable x, then count the number of occurrences of non-zero elements in the array below and initialize x with that value
          * 2. Modify the array so that non-zero elements appear first
          * */
 
         $array = [13,5,0,8,0,22,0,0,9,15,44];
-
 
 
         $this->assertEquals($x, 7);
@@ -30,17 +41,6 @@ class ThirdTests extends PHPUnit_Framework_TestCase
         $this->assertEquals($this->power(3,4) , 81);
 
     }
-
-    public function testOperator()
-    {
-        /*
-         * Make 'z' TRUE
-         */
-        $z = '0123' === 123;
-
-        $this->assertTrue($z);
-    }
-
 
     /**
      * Exponential expression
