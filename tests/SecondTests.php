@@ -61,7 +61,7 @@ class SecondTests extends PHPUnit_Framework_TestCase
 	public function testOperator2()
 	{
 		/*
-		 * Make 'z' TRUE without modifying any values
+		 * Make 'z' FALSE without modifying any values
 		 */
 		$z = '0123' == 123;
 
