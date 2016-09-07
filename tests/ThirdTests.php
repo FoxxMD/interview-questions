@@ -31,6 +31,17 @@ class ThirdTests extends PHPUnit_Framework_TestCase
 
     }
 
+    public function testOperator()
+    {
+        /*
+         * Make 'z' TRUE
+         */
+        $z = '0123' === 123;
+
+        $this->assertTrue($z);
+    }
+
+
     /**
      * Exponential expression
      *
