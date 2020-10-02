@@ -55,7 +55,7 @@ class FirstTests extends PHPUnit_Framework_TestCase
         $array = array('cat','dog','penguin','wompwomp','gasoline');
 
         $this->assertCount(6, $array);
-        $this->assertEquals(last($array), 4);
+        $this->assertEquals(end($array), 4);
     }
 
     public function testClass1(){
