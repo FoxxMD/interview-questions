@@ -17,8 +17,8 @@ class Helper
         return $rand%2 === 0 ? null : $rand;
     }
 
-    public static function nullAssertValue($val){
-        return is_null($val) ? 'foo' : 'bar';
+    public static function testNullAnswer($val){
+        return $val === null ? 'foo' : 'bar';
     }
 
     public static function squidArray(){
@@ -34,4 +34,18 @@ class Helper
     public static function squidAnswer(){
         return 'clarinet';
     }
+
+	public static function algo1Count()
+	{
+    	return 7;
+	}
+
+	public static function nationArray()
+	{
+		return ['pizzanation','scoobynation','awolnation'];
+	}
+
+	public static function testArray1Answer() {
+    	return 'wompwomp';
+	}
 }

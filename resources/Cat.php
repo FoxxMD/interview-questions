@@ -15,4 +15,9 @@ class Cat {
 	public function __construct($name){
 		$this->name = $name;
 	}
+
+	public static function ageAnswer()
+	{
+		return 10;
+	}
 }

@@ -15,6 +15,9 @@
  * Good Luck!
  *
  * */
+
+use interview\Helper;
+
 class ThirdTest extends PHPUnit_Framework_TestCase
 {
 
@@ -29,8 +32,8 @@ class ThirdTest extends PHPUnit_Framework_TestCase
         $array = [13,5,0,8,0,22,0,0,9,15,44];
 
 
-        $this->assertEquals($x, 7);
-        $this->assertEquals(array_splice($array,7), [0, 0, 0, 0]);
+        $this->assertEquals(Helper::algo1Count(), $x);
+        $this->assertEquals([0, 0, 0, 0], array_splice($array, Helper::algo1Count()));
     }
 
     public function testAlgo2(){

@@ -27,7 +27,7 @@ class SecondTest extends PHPUnit_Framework_TestCase
         $array = ['pizza', 'scooby', 'awol'];
         $nationArray = [];
 
-        $this->assertEquals($nationArray, ['pizzanation','scoobynation','awolnation']);
+        $this->assertEquals(Helper::nationArray(), $nationArray);
 
     }
 
@@ -37,7 +37,7 @@ class SecondTest extends PHPUnit_Framework_TestCase
          * */
         $exampleArray = Helper::squidArray();
 
-        $this->assertEquals($x, Helper::squidAnswer());
+        $this->assertEquals(Helper::squidAnswer(), $x);
     }
 
     public function testOperator(){

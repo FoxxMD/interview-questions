@@ -21,9 +21,7 @@ class FirstTest extends PHPUnit_Framework_TestCase
     public function testAssign(){
         // Declare the variable $x and initialize it with string 'foo'
 
-	    $x = 'foo';
-
-        $this->assertEquals($x, 'foo');
+        $this->assertEquals('foo', $x);
     }
 
     public function testNull(){
@@ -37,7 +35,7 @@ class FirstTest extends PHPUnit_Framework_TestCase
 
         Helper::generateMaybeNull();
 
-        $this->assertEquals($y, Helper::nullAssertValue($x));
+        $this->assertEquals(Helper::testNullAnswer($x), $y);
     }
 
     public function testArray1(){
@@ -46,7 +44,7 @@ class FirstTest extends PHPUnit_Framework_TestCase
          * */
         $array = array('cat','dog','penguin','wompwomp','gasoline');
 
-        $this->assertEquals($x, 'wompwomp');
+        $this->assertEquals(Helper::testArray1Answer(), $x);
     }
 
     public function testArray2(){
@@ -57,7 +55,7 @@ class FirstTest extends PHPUnit_Framework_TestCase
         $array = array('cat','dog','penguin','wompwomp','gasoline');
 
         $this->assertCount(6, $array);
-        $this->assertEquals(end($array), 4);
+        $this->assertEquals(4, end($array));
     }
 
     public function testClass1(){
@@ -66,7 +64,7 @@ class FirstTest extends PHPUnit_Framework_TestCase
          * Then declare the variable $x and initialize it with the value of the property 'age' from the Dog instance you created
          * */
 
-        $this->assertEquals($x, 5);
+        $this->assertEquals(Dog::ageAnswer(), $x);
     }
 
     public function testClass2(){
@@ -76,7 +74,7 @@ class FirstTest extends PHPUnit_Framework_TestCase
          * 3. Add 3 to the property 'age' on the Cat instance.
          * */
 
-        $this->assertEquals($x->age, 10);
-        $this->assertEquals($name, $x->name);
+        $this->assertEquals(Cat::ageAnswer(), $x->age);
+        $this->assertEquals($x->name, $name);
     }
 }
