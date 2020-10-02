@@ -26,10 +26,11 @@ class FirstTests extends PHPUnit_Framework_TestCase
 
     public function testNull(){
         /*
-         * Declare the variable x and initialize it with a value from the function 'Helper::generateMaybeNull()' below
+         * Declare the variable x and initialize it with a value from the function 'Helper::generateMaybeNull()' below.
+         * Declare the variable y.
          *
-         * If x is null  declare the variable y and initialize it with the string 'foo'
-         * If x is not null declare the variable y and initialize it with the string 'bar'
+         * If x is null initialize y with the string 'foo'
+         * If x is not null initialize y with the string 'bar'
          * */
 
         Helper::generateMaybeNull()
@@ -59,7 +60,8 @@ class FirstTests extends PHPUnit_Framework_TestCase
 
     public function testClass1(){
         /*
-         * Instantiate the class Dog, then declare the variable x and initialize it with age property
+         * Instantiate the class Dog to the variable y
+         * Then declare the variable x and initialize it with the value of the property 'age' from the Dog instance you created
          * */
 
         $this->assertEquals($x, 5);
@@ -68,8 +70,8 @@ class FirstTests extends PHPUnit_Framework_TestCase
     public function testClass2(){
         /*
          * 1. Declare the variable 'name' and initialize it with a string of your choice.
-         * 2. Declare the variable x and instantiate it with the class Cat. Provide the variable 'name' as an argument.
-         * 3. Add 3 to the member 'age' in the Cat instance.
+         * 2. Declare the variable x and instantiate it with the class Cat, providing the variable 'name' as an argument
+         * 3. Add 3 to the property 'age' on the Cat instance.
          * */
 
         $this->assertEquals($x->age, 10);
