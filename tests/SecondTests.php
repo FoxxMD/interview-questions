@@ -21,7 +21,7 @@ class SecondTests extends PHPUnit_Framework_TestCase
 {
     public function testArray1(){
         /*
-         * Using a foreach loop iterate through the array below and add the word 'nation' to each element
+         * Using a foreach loop iterate through $array below and add the word 'nation' to each element
          * */
 
         $array = ['pizza', 'scooby', 'awol'];
@@ -32,7 +32,7 @@ class SecondTests extends PHPUnit_Framework_TestCase
 
     public function testArray2(){
         /*
-         * Declare the variable x and initialize it with the value of the key named 'squidward' from $exampleArray below
+         * Declare the variable $x and initialize it with the value of the key named 'squidward' from $exampleArray below
          * */
         $exampleArray = Helper::squidArray();
 
@@ -61,7 +61,7 @@ class SecondTests extends PHPUnit_Framework_TestCase
 	public function testOperator2()
 	{
 		/*
-		 * Make 'z' FALSE without modifying any values
+		 * Make $z FALSE without modifying any values
 		 */
 		$z = '0123' == 123;
 
