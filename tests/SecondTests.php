@@ -32,9 +32,9 @@ class SecondTests extends PHPUnit_Framework_TestCase
 
     public function testArray2(){
         /*
-         * Declare the variable x and initialize it with the value of the key named 'squidward' from the array below
+         * Declare the variable x and initialize it with the value of the key named 'squidward' from $exampleArray below
          * */
-        $array = Helper::squidArray();
+        $exampleArray = Helper::squidArray();
 
         $this->assertEquals($x, Helper::squidAnswer());
     }
@@ -49,7 +49,7 @@ class SecondTests extends PHPUnit_Framework_TestCase
         $string1 = 'peoplesRepublicOfKorea';
         $string2 = 'people';
 
-        if(strpos($string1, $string2)){
+        if(strpos($string2, $string1) !== false){
             echo 'Found it!';
         } else {
             echo 'Not Found';
@@ -70,18 +70,15 @@ class SecondTests extends PHPUnit_Framework_TestCase
 
     public function testHandling(){
     	/*
-         * Make this test pass without modifying any of the lines between the commented lines below
+         * Make this test pass without modifying any existing lines of code
          * */
 
-        // ********************
-        $x = 42;
-        $y = mt_rand();
-        $z = $x + $y;
-        if(is_numeric($z)){
-            throw new \RuntimeException();
+        if(is_numeric(42)){
+            throw new \RuntimeException('This will always be thrown');
         }
-        // ********************
 
+
+	    // test will pass if this function is executed
         $this->anything();
 
     }
