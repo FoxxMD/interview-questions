@@ -16,10 +16,12 @@ use interview\Helper;
  * Good Luck!
  *
  * */
-class FirstTests extends PHPUnit_Framework_TestCase
+class FirstTest extends PHPUnit_Framework_TestCase
 {
     public function testAssign(){
         // Declare the variable $x and initialize it with string 'foo'
+
+	    $x = 'foo';
 
         $this->assertEquals($x, 'foo');
     }
@@ -33,7 +35,7 @@ class FirstTests extends PHPUnit_Framework_TestCase
          * If $x is not null initialize $y with the string 'bar'
          * */
 
-        Helper::generateMaybeNull()
+        Helper::generateMaybeNull();
 
         $this->assertEquals($y, Helper::nullAssertValue($x));
     }

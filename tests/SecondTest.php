@@ -17,7 +17,7 @@ use interview\Helper;
  * Good Luck!
  *
  * */
-class SecondTests extends PHPUnit_Framework_TestCase
+class SecondTest extends PHPUnit_Framework_TestCase
 {
     public function testArray1(){
         /*

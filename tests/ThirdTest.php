@@ -15,7 +15,7 @@
  * Good Luck!
  *
  * */
-class ThirdTests extends PHPUnit_Framework_TestCase
+class ThirdTest extends PHPUnit_Framework_TestCase
 {
 
     public function testAlgo1(){
