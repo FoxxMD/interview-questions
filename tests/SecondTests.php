@@ -21,12 +21,13 @@ class SecondTests extends PHPUnit_Framework_TestCase
 {
     public function testArray1(){
         /*
-         * Using a foreach loop iterate through $array below and add the word 'nation' to each element
+         * Add the elements of $array to $nationArray, appending the word 'nation' to each element
          * */
 
         $array = ['pizza', 'scooby', 'awol'];
+        $nationArray = [];
 
-        $this->assertEquals($array, ['pizzanation','scoobynation','awolnation']);
+        $this->assertEquals($nationArray, ['pizzanation','scoobynation','awolnation']);
 
     }
 
