@@ -22,8 +22,8 @@ class ThirdTests extends PHPUnit_Framework_TestCase
         /*
          * Given the array below:
          *
-         * 1. Declare the variable x, then count the number of occurrences of non-zero elements in the array below and initialize x with that value
-         * 2. Modify the array so that non-zero elements appear first
+         * 1. Count the number of occurrences of non-zero elements in $array below and initialize a new variable $x with that value
+         * 2. Modify $array so that non-zero elements appear first
          * */
 
         $array = [13,5,0,8,0,22,0,0,9,15,44];
@@ -35,7 +35,7 @@ class ThirdTests extends PHPUnit_Framework_TestCase
 
     public function testAlgo2(){
         /*
-         * Implement the function below such that it emulates pow()
+         * Implement the class function power(), described below
          * */
 
         $this->assertEquals($this->power(3,4) , 81);
@@ -43,7 +43,8 @@ class ThirdTests extends PHPUnit_Framework_TestCase
     }
 
     /**
-     * Exponential expression
+     * Takes a base and exponent value and returns the base to the power of the exponent
+     * // more information https://www.mathsisfun.com/exponent.html
      *
      * @param $base int The base number
      * @param $exponent int The exponent the base number is raised to
