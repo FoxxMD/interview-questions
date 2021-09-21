@@ -1,5 +1,5 @@
 {
-  "name": "interview-questions",
+  "name": "fdc/interview-questions",
   "require-dev": {
     "phpunit/phpunit": "~4.0",
     "phpspec/phpspec": "~2.1"
