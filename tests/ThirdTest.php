@@ -18,7 +18,7 @@
 
 use interview\Helper;
 
-class ThirdTest extends PHPUnit_Framework_TestCase
+class ThirdTest extends \PHPUnit\Framework\TestCase
 {
 
     public function testAlgo1(){

@@ -16,7 +16,7 @@ use interview\Helper;
  * Good Luck!
  *
  * */
-class FirstTest extends PHPUnit_Framework_TestCase
+class FirstTest extends \PHPUnit\Framework\TestCase
 {
     public function testAssign(){
         // Declare the variable $x and initialize it with string 'foo'
