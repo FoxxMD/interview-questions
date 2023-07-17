@@ -60,7 +60,7 @@ class FirstTest extends \PHPUnit\Framework\TestCase
 
     public function testClass1(){
         /*
-         * Instantiate the class Dog to the variable $y
+         * Declare the variable $y and initialize it with a new instance of the 'Dog' class
          * Then declare the variable $x and initialize it with the value of the property 'age' from the Dog instance you created
          * */
 
@@ -70,7 +70,7 @@ class FirstTest extends \PHPUnit\Framework\TestCase
     public function testClass2(){
         /*
          * 1. Declare the variable $name and initialize it with a string of your choice.
-         * 2. Declare the variable $x and instantiate it with the class Cat, providing the variable $name as an argument
+         * 2. Declare the variable $x and initialize it with a new instance of the 'Cat' class, providing the variable $name as an argument to the class constructor
          * 3. Add 3 to the property 'age' on the Cat instance.
          * */
 

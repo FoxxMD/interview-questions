@@ -33,7 +33,7 @@ class SecondTest extends \PHPUnit\Framework\TestCase
 
     public function testArray2(){
         /*
-         * Declare the variable $x and initialize it with the value of the key named 'squidward' from $exampleArray below
+         * Declare the variable $x and initialize it with the value of the property named 'squidward' from $exampleArray below
          * */
         $exampleArray = Helper::squidArray();
 
