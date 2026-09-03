@@ -12,6 +12,8 @@ use interview\Helper;
  * Please note that each test is independent -- they are not related or depend on any of the other tests.
  *
  * Also, please do not hesitate to ask for clarification on any directions, questions are encouraged!
+ * 
+ * PROTIP: In these instructions, the term 'initialize' means the same thing as 'assign this thing with a value'
  *
  * Good Luck!
  *
