@@ -1,0 +1,11 @@
+{
+    "intelephense.diagnostics.undefinedVariables": "off",
+    "intelephense.diagnostics.suspectCode": false,
+    "intelephense.diagnostics.undefinedMethods": false,
+    "intelephense.diagnostics.undefinedProperties": false,
+    "intelephense.diagnostics.undefinedTypes": false,
+    "intelephense.diagnostics.unexpectedTokens": false,
+    "intelephense.diagnostics.unreachableCode": false,
+    "intelephense.diagnostics.unusedSymbols": false,
+    "intelephense.diagnostics.undefinedFunctions": false
+}
