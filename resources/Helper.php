@@ -11,13 +11,13 @@ namespace interview;
 class Helper
 {
 
-    public static function generateMaybeNull(){
+    public static function generateMaybeNull(): ?int {
         $rand = mt_rand();
 
         return $rand%2 === 0 ? null : $rand;
     }
 
-    public static function testNullAnswer($val){
+    public static function testNullAnswer(?int $val){
         return $val === null ? 'foo' : 'bar';
     }
 

@@ -6,13 +6,13 @@ namespace interview;
 
 class Cat {
 
-	public $name;
-	public $age = 7;
+	public string $name;
+	public int $age = 7;
 
 	/**
 	 * @param $name
 	 */
-	public function __construct($name){
+	public function __construct(string $name){
 		$this->name = $name;
 	}
 
