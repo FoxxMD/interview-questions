@@ -2,7 +2,9 @@
 
 
 /*
- * These tests are to see how you perform with algorithms. The code you write is more important than the answer you get.
+ * These tests are to see how you handle multi-step problems and see how you work through a problem.
+ * 
+ * The code you write is more important than the answer you get.
  *
  * Each public function in this file is a TEST in a PHPUnit suite.
  * The code block for each function contains code that must be modified/fixed in order for the test to pass.
@@ -56,7 +58,7 @@ class ThirdTest extends \PHPUnit\Framework\TestCase
      * @param $exponent int The exponent the base number is raised to
      * @return float|int
      */
-    private function power($base, $exponent){
+    private function power(int $base,int $exponent){
 
     }
 }
