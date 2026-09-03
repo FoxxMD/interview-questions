@@ -44,7 +44,7 @@ class FirstTest extends \PHPUnit\Framework\TestCase
         /*
          * Declare the variable $x and initialize it with the 4th element from the array below
          * */
-        $array = array('cat','dog','penguin','wompwomp','gasoline');
+        $array = Helper::squidArray();
 
         $this->assertEquals(Helper::testArray1Answer(), $x);
     }

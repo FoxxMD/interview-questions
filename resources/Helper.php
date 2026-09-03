@@ -46,6 +46,6 @@ class Helper
 	}
 
 	public static function testArray1Answer() {
-    	return 'wompwomp';
+    	return self::squidArray()[3];
 	}
 }
