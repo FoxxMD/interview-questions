@@ -7,5 +7,11 @@
     "intelephense.diagnostics.unexpectedTokens": false,
     "intelephense.diagnostics.unreachableCode": false,
     "intelephense.diagnostics.unusedSymbols": false,
-    "intelephense.diagnostics.undefinedFunctions": false
+    "intelephense.diagnostics.undefinedFunctions": false,
+    "intelephense.completion.withMethodBody": false,
+    "intelephense.completion.triggerParameterHints": false,
+    "intelephense.completion.suggestObjectOperatorStaticMethods": false,
+    "intelephense.diagnostics.implementationErrors": false,
+    "intelephense.diagnostics.argumentCount": "off",
+    "intelephense.diagnostics.typeErrors": false
 }
