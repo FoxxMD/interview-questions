@@ -41,12 +41,13 @@ class FirstTest extends \PHPUnit\Framework\TestCase
     }
 
     public function testArray1(){
+        $helper = new Helper();
         /*
          * Declare the variable $x and initialize it with the 4th element from the array below
          * */
-        $array = Helper::squidArray();
+        $array = $helper->testArray1();
 
-        $this->assertEquals(Helper::testArray1Answer(), $x);
+        $this->assertEquals($helper->testArray1Answer(), $x);
     }
 
     public function testArray2(){

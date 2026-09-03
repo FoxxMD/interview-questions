@@ -1,6 +1,8 @@
 <?php
 
 namespace interview;
+use Faker;
+
 
 /**
  * Created by IntelliJ IDEA.
@@ -10,6 +12,13 @@ namespace interview;
  */
 class Helper
 {
+
+    protected array $array1;
+
+    public function __construct() {
+        $faker = Faker\Factory::create();
+        $this->array1 = [$faker->name(),$faker->name(),$faker->name(),$faker->name(),$faker->name()];
+    }
 
     public static function generateMaybeNull(): ?int {
         $rand = mt_rand();
@@ -45,7 +54,11 @@ class Helper
 		return ['pizzanation','scoobynation','awolnation'];
 	}
 
-	public static function testArray1Answer() {
-    	return self::squidArray()[3];
+    public function testArray1() {
+    	return $this->array1;
+	}
+
+	public function testArray1Answer() {
+    	return $this->array1[3];
 	}
 }
