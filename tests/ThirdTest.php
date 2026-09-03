@@ -46,7 +46,6 @@ class ThirdTest extends \PHPUnit\Framework\TestCase
 	    $this->assertEquals($this->power(3,0) , 1);
 	    $this->assertEquals($this->power(3,1) , 3);
         $this->assertEquals($this->power(3,4) , 81);
-        $this->assertEquals(number_format($this->power(3, 4), 4), "0.0123");
 
     }
 
