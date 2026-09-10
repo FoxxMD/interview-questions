@@ -1,10 +1,10 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
-// README at: https://github.com/devcontainers/templates/tree/main/src/php
+// README at: https://github.com/devcontai`ners/templates/tree/main/src/php
 {
 	"name": "PHP",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/php:4-8.5-trixie",
-
+	// "image": "mcr.microsoft.com/devcontainers/php:7.4",
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 
