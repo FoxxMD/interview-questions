@@ -13,5 +13,18 @@
     "intelephense.completion.suggestObjectOperatorStaticMethods": false,
     "intelephense.diagnostics.implementationErrors": false,
     "intelephense.diagnostics.argumentCount": "off",
-    "intelephense.diagnostics.typeErrors": false
+    "intelephense.diagnostics.typeErrors": false,
+    "chat.disableAIFeatures": true,
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "editor.suggest.showInlineDetails": false,
+    "chat.autopilot.advanced.enabled": false,
+    "editor.inlineSuggest.enabled": false,
+    "editor.suggest.preview": false,
+    "editor.suggest.showClasses": false,
+    "editor.suggest.showConstants": false,
+    "editor.suggest.showConstructors": false,
+    "editor.suggest.showFields": false,
+    "editor.suggest.showFunctions": true,
+    "editor.suggest.showMethods": false,
+    "editor.inlineSuggest.edits.showLongDistanceHint": false
 }
