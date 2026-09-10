@@ -20,13 +20,13 @@ class Helper
         $this->array1 = [$faker->name(),$faker->name(),$faker->name(),$faker->name(),$faker->name()];
     }
 
-    public static function generateMaybeNull(): ?int {
+    public static function generateMaybeNull(): ?bool {
         $rand = mt_rand();
 
         return $rand%2 === 0 ? null : $rand;
     }
 
-    public static function testNullAnswer(?int $val){
+    public static function testNullAnswer(?bool $val){
         return $val === null ? 'foo' : 'bar';
     }
 

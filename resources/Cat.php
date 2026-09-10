@@ -16,7 +16,7 @@ class Cat {
 		$this->name = $name;
 	}
 
-	public static function ageAnswer()
+	public static function ageAnswer(): int
 	{
 		return 10;
 	}
