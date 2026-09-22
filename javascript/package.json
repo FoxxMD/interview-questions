@@ -1,0 +1,20 @@
+{
+  "name": "interview-questions",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/chai": "^5.2.3",
+    "@types/chai-as-promised": "^8.0.2",
+    "@types/node": "^26.6.2",
+    "chai": "^6.2.2",
+    "chai-as-promised": "^8.0.2",
+    "mocha": "^12.0.2"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "reporter": "dot",
+  "extension": "js",
+  "spec": "./tests/**/*.test.js",
+  "exit": true
+}

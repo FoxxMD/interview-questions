@@ -58,4 +58,6 @@ vendor/
 # composer.lock
 
 
-/.phpunit.result.cache
+php/.phpunit.result.cache
+php/vendor
+javascript/node_modules
