@@ -27,11 +27,6 @@ class SecondTest extends \PHPUnit\Framework\TestCase
         $array = ['pizza', 'scooby', 'awol'];
         $nationArray = [];
 
-        $nationArray = & $array;
-        foreach($nationArray as $a) {
-            $a .= 'nation';
-        }
-
         $this->assertEquals(Helper::nationArray(), $nationArray);
 
     }
