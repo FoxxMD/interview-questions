@@ -47,9 +47,32 @@ function parseQueryString(q) {
 }
 
 /*
- * These tests are to see how you handle multi-step problems and see how you work through a problem.
+ * These tests are to see how you handle multi-step problems and see how you work through a problem. 
+ * The code you write, and explaining your thought process, is more important than getting the exact correct answer.
+ * 
+ * __________________________________________
  *
- * The code you write is more important than the answer you get.
+ * Each `it('...` block in this file is a test you must complete.
+ *
+ * The test block contains code that must be modified/fixed in order for the test to pass.
+ *
+ * Each function contains comment(s) that will give you directions on how to fix the code,
+ * or what is required for you to do, in order for the test to pass.
+ * 
+ * You should not should not modify any existing lines of code or test statements (assert, expect, etc...)
+ * unless the instructions tell you to do so.
+ * 
+ * The test statements (assert, expect, etc...) are there to check if your implementation passes the test
+ * and otherwise do not affect anything you need to do to take the test IE just ignore them.
+ *
+ * Note that each test is independent: they are not related or depend on any of the other tests.
+ *
+ * Also, please do not hesitate to ask for clarification on any directions, questions are encouraged!
+ * 
+ * PROTIP: In these instructions, the term 'initialize' means the same thing as 'assign this thing with a value'
+ *
+ * Good Luck!
+ *
  * */
 describe('Third Test', function() {
 
