@@ -32,8 +32,8 @@ describe('Third Test', function() {
 
         const array = [13, 5, 0, 8, 0, 22, 0, 0, 9, 15, 44];
 
-        assert.equal(algo1Count(), x);
-        assert.deepEqual([0, 0, 0, 0], array.splice(algo1Count()));
+        assert.equal(x, algo1Count());
+        assert.deepEqual(array.splice(algo1Count()), [0, 0, 0, 0]);
 
     });
 

@@ -14,7 +14,7 @@ describe('First Test', function() {
          * */
         generateMaybeNull();
 
-        expect(x).to.eq(generateMaybeNullAnswer(x));
+        expect(y).to.eq(generateMaybeNullAnswer(x));
 
     });
 
