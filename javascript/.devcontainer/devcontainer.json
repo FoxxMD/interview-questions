@@ -1,9 +1,13 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/typescript-node
 {
-	"name": "Node.js & TypeScript",
+	"name": "Node.js",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/typescript-node:5-24-trixie",
+	"dockerComposeFile": [
+		"compose.yml"
+	],
+	"service": "interview-questions-js",
+	"workspaceFolder": "/workspaces",
 	"customizations": {
 		"vscode": {
 			"extensions": [
